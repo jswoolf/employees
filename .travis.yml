@@ -7,8 +7,8 @@ branches:
 cache:
   directories:
     - "node_modules"
+
 deploy:
   provider: heroku
-  app: "[APP_NAME]"
-  api_key:
-  secure: "[API_KEY]"
+  app: APP_NAME
+  api_key: API_KEY

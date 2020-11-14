@@ -2,13 +2,13 @@ language: node_js
 node_js:
   - "stable"
 branches:
-      only:
-        - main
+  only:
+    - main
 cache:
   directories:
     - "node_modules"
 deploy:
   provider: heroku
-  app: APP_NAME
+  app: "[APP_NAME]"
   api_key:
-  secure: API_KEY
+  secure: "[API_KEY]"
